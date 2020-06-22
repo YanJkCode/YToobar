@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <declare-styleable name="YToolbar">
+        <!--使用系统的宽高属性-->
+        <attr name="android:layout_width" />
+        <attr name="android:layout_height" />
+
+        <!--是否开启 沉浸模式 默认开启-->
+        <attr name="toolbarIsOpenStatusBar" format="boolean" />
+        <!--导航栏透明 底部操作键 true关闭  false正常显示-->
+        <attr name="toolbarStatusBarNavi" format="boolean" />
+        <!--状态栏颜色 true黑  false白色-->
+        <attr name="toolbarStatusIcon" format="boolean" />
+        <!--是否直接开启返回键-->
+        <attr name="toolbarOpenBack" format="boolean" />
+
+        <!--title -->
+        <attr name="toolbarTitleText" format="string" />
+        <!--title color-->
+        <attr name="toolbarTitleColor" format="color|reference" />
+        <!--title Size-->
+        <attr name="toolbarTitleSize" format="dimension" />
+
+        <!--title Style Bold true开启  false正常显示(默认)-->
+        <attr name="toolbarTitleOpenBold" format="boolean" />
+
+        <!--toolbar 背景-->
+        <attr name="toolbarBackground" format="reference" />
+
+        <!--toolbar 背景-->
+        <attr name="toolbarBackgroundColor" format="color|reference" />
+
+        <!--toolbar 背景-->
+        <attr name="toolbarBackIcon" format="reference" />
+
+        <!--right 按钮图标-->
+        <attr name="toolbarRightImgBtnIcon" format="reference" />
+
+
+        <!--RightTv -->
+        <attr name="toolbarRightTvBtnText" format="string" />
+        <!--RightTv color-->
+        <attr name="toolbarRightTvBtnColor" format="color|reference" />
+        <!--RightTv Size-->
+        <attr name="toolbarRightTvBtnSize" format="dimension" />
+
+        <!--RightTv Style Bold true开启  false正常显示(默认)-->
+        <attr name="toolbarRightTvBtnOpenBold" format="boolean" />
+
+        <!--RightTv 是否显示 true显示  false隐藏(默认) 只能有一个显示 文本按钮的优先度高-->
+        <attr name="toolbarOpenRightTvBtn" format="boolean" />
+
+        <!--RightTv 是否显示 true显示  false隐藏(默认) 只能有一个显示-->
+        <attr name="toolbarOpenRightImgBtn" format="boolean" />
+
+
+    </declare-styleable>
+
+
+</resources>
